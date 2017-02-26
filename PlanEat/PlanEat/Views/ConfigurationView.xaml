@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="PlanEat.ConfigurationView"
+		xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms">
+	<ContentPage.Content>
+		<StackLayout Margin="10">
+			<Label HorizontalTextAlignment="Center">Configuration de mes journées</Label>
+
+			<controls:Separator Color="Black" WidthRequest="1" />
+			
+			<ListView>
+
+			</ListView>
+
+			<Button BorderRadius="25" WidthRequest="50" HeightRequest="50" Text="+" TextColor="White" BackgroundColor="Blue" HorizontalOptions="End"/>
+
+			<Button Text="Mettre à jour" BackgroundColor="Blue" WidthRequest="100" HeightRequest="50" BorderRadius="5" 
+				HorizontalOptions="Center" VerticalOptions="Center" TextColor="White"/>
+			
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

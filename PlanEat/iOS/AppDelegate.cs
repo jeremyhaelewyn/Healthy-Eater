@@ -13,6 +13,7 @@ namespace PlanEat.iOS
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
 			global::Xamarin.Forms.Forms.Init();
+			global::XLabs.Forms.XFormsAppiOS.Init();
 
 			LoadApplication(new App());
 

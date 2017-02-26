@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{9D80959A-ED58-42A2-9E87-E4032B232CC1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PlanEat/Menu/TabbedMenu.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PlanEat/Views/ConfigurationView.xaml">
     <Files>
-      <File FileName="PlanEat/PlanEat.cs" Line="26" Column="31" />
-      <File FileName="PlanEat/Menu/TabbedMenu.xaml" Line="21" Column="51" />
       <File FileName="PlanEat/Menu/TabbedMenu.xaml.cs" Line="12" Column="1" />
-      <File FileName="PlanEat/Views/Aujourdhui.xaml" Line="16" Column="101" />
-      <File FileName="PlanEat/obj/Debug/PlanEat.Menu.TabbedMenu.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="PlanEat/Views/ConfigurationView.xaml" Line="16" Column="140" />
+      <File FileName="PlanEat/Menu/TabbedMenu.xaml" Line="6" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

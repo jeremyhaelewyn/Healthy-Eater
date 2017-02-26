@@ -2,7 +2,8 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		xmlns:local="clr-namespace:PlanEat;assembly=PlanEat"
-		x:Class="PlanEat.TabbedMenu">
+		x:Class="PlanEat.TabbedMenu"
+		xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms">
 
 	<NavigationPage Title="Today"> <!--Icon="schedule.png"-->
         <x:Arguments>
@@ -18,7 +19,7 @@
 
     <NavigationPage Title="Setting" > <!--Icon="schedule.png"-->
         <x:Arguments>
-            <local:Aujourdhui Title="Healty Eater"/>
+            <local:ConfigurationView Title="Healty Eater"/>
         </x:Arguments>
     </NavigationPage>
 	
