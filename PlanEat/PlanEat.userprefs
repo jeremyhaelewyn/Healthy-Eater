@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{9D80959A-ED58-42A2-9E87-E4032B232CC1}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="PlanEat/Views/ConfigurationView.xaml">
     <Files>
-      <File FileName="PlanEat/Menu/TabbedMenu.xaml.cs" Line="12" Column="1" />
-      <File FileName="PlanEat/Views/ConfigurationView.xaml" Line="16" Column="140" />
-      <File FileName="PlanEat/Menu/TabbedMenu.xaml" Line="6" Column="3" />
+      <File FileName="PlanEat/Custom Controls/MovableCell.cs" Line="7" Column="26" />
+      <File FileName="PlanEat/Cell/ConfigurationCell.xaml" Line="10" Column="16" />
+      <File FileName="PlanEat/Views/ConfigurationView.xaml" Line="43" Column="79" />
+      <File FileName="PlanEat/Views/EditConfigurationItemView.xaml" Line="24" Column="53" />
+      <File FileName="PlanEat/Views/Aujourdhui.xaml" Line="16" Column="101" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.PlanEat.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F9BE5C6A-B439-4661-8A4D-DF657CCE4A27" />
+  <MonoDevelop.Ide.ItemProperties.PlanEat.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
 </Properties>

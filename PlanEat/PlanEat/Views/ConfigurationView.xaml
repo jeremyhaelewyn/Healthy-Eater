@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="PlanEat.ConfigurationView"
+		xmlns:local="clr-namespace:PlanEat;assembly=PlanEat"
 		xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms">
 	<ContentPage.Content>
 		<StackLayout Margin="10">
@@ -9,13 +10,37 @@
 
 			<controls:Separator Color="Black" WidthRequest="1" />
 			
-			<ListView>
+			<!--ListView x:Name="listView" Margin="10,10">
+				<ListView.ItemTemplate>
+				  	<DataTemplate>
+				    	<local:ConfigurationCell Name="{Binding Name}" Description="{Binding Age}" ImageFilename="{Binding Image}" />
+				    </DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView-->
 
-			</ListView>
 
-			<Button BorderRadius="25" WidthRequest="50" HeightRequest="50" Text="+" TextColor="White" BackgroundColor="Blue" HorizontalOptions="End"/>
+			<ListView x:Name ="listView" Margin="10,10">
+      			<ListView.ItemTemplate>
+        			<DataTemplate>
+        				<local:MovableCell>
+            				<ContentView BackgroundColor="White">
+              					<StackLayout Orientation="Horizontal">
+									<Image Source="{Binding ImageFilename}" />
+									<StackLayout HorizontalOptions="FillAndExpand" Margin="5,0">
+										<Label Text="{Binding Name}" FontSize="15"/>
+										<Label Text="{Binding Description}" FontSize="12" TextColor="Gray"/>
+									</StackLayout>
+									<Image Source="menu.png"/>
+								</StackLayout>
+            				</ContentView>
+          				</local:MovableCell>
+        			</DataTemplate>
+      			</ListView.ItemTemplate>
+    		</ListView>
+			
+			<Button x:Name="AddButton" BorderRadius="25" WidthRequest="50" HeightRequest="50" Text="+" TextColor="White" BackgroundColor="#ADD8E6" HorizontalOptions="End"/>
 
-			<Button Text="Mettre à jour" BackgroundColor="Blue" WidthRequest="100" HeightRequest="50" BorderRadius="5" 
+			<Button Text="Mettre à jour" BackgroundColor="#ADD8E6" WidthRequest="150" HeightRequest="50" BorderRadius="5" 
 				HorizontalOptions="Center" VerticalOptions="Center" TextColor="White"/>
 			
 		</StackLayout>

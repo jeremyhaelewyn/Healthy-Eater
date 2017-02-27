@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PlanEat.ConfigurationCell">
+	<StackLayout Orientation="Horizontal">
+		<Image Source="{Binding ImageFilename}" />
+		<StackLayout HorizontalOptions="FillAndExpand" Margin="5,0">
+			<Label Text="{Binding Name}" FontSize="15"/>
+			<Label Text="{Binding Description}" FontSize="12" TextColor="Gray"/>
+		</StackLayout>
+		<Image Source="menu.png"/>
+	</StackLayout>
+</ViewCell>
